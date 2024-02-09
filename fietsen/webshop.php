@@ -9,7 +9,7 @@
     <h1>fiets shop</h1>
     <a href="insert.php">voeg toe</a>
     <?php
-    include "select.php";
+    include "crud.php";
     ?>
 </body>
 </html>

@@ -21,13 +21,17 @@
             <th>merk</th>
             <th>type</th>
             <th>prijs</th>
-            <th>foto</th></tr>";
+            <th>foto</th>
+            <th>Wijzig</th>
+            <th>Verwijderen</th></tr>";
             foreach($result as &$data) {
                 echo "<tr>";
                     echo "<td>" . $data["merk"] . "</td>";
                     echo "<td>" . $data["type"] . "</td>";
                     echo "<td>&euro; " . number_format($data["prijs"],2,",",".") . "</td>";
                     echo "<td>" . "<img src='img/" . $data["foto"] . "'>" . "</td>";
+                    echo "<td><a href='edit.php?ID=" . $data['ID'] . "'>" . "Wijzig</a></td>";
+                    echo "<td><a href='delete.php?ID=" . $data['ID'] . "'>" . "Verwijderen</a></td>";
                 echo "</tr>";
         }
         echo "</table>";
