@@ -33,6 +33,7 @@
     <div class="container">
         <h1>Wijzig fiets</h1>
         <form action="edit_db.php" method="post">
+            <input type="hidden" id="ID" name="ID" required value="<?php echo $result['ID']?>">
             <label for="merk">Merk:</label>
             <input type="text" id="merk" name="merk" required value="<?php echo $result['merk']?>">
 
@@ -41,9 +42,6 @@
 
             <label for="prijs">Prijs:</label>
             <input type="number" id="prijs" name="prijs" required value="<?php echo $result['prijs']?>">
-
-            <label for="foto">Foto (URL):</label>
-            <input type="text" id="foto" name="foto" required value="<?php echo $result['foto']?>">
 
             <button type="submit">wijzig Fiets Toe</button>
         </form>
