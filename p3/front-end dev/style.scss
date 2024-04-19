@@ -1,0 +1,93 @@
+$bar-color: #161616;
+$main-color: #C78130;
+$button-color: #B3C63E;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.fotoarea img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+.fotoarea {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    background-color: $main-color;
+}
+.topbar {
+    background-color: $bar-color; /* Set the background color */
+    color: white; /* Set text color */
+    padding: 20px; /* Add padding for spacing */
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Align items to the start and end of the container */
+    align-items: center; /* Center items vertically */
+}
+
+.header1 {
+    margin: 0; /* Remove default margin */
+    margin-left: 40vw;
+}
+.bottombar {
+    background-color: $bar-color; /* Set the background color */
+    color: white; /* Set text color */
+    padding: 20px; /* Add padding for spacing */
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Align items to the start and end of the container */
+    align-items: center; /* Center items vertically */
+}
+
+.bottombar h1 {
+    margin: 0; /* Remove default margin */
+    margin-left: 37vw;
+}
+
+
+
+.aboutmetext {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; /* Horizontaal centreren */
+    align-items: center; /* Verticaal centreren */
+    flex-direction: column;
+    padding: 10px 0;
+    margin-top: 0px;
+    background-color: $button-color;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none; /* Zorg ervoor dat knoppen eruit zien als knoppen, niet als links */
+}
+
+
+.button:hover {
+    background-color: #0056b3;
+}
