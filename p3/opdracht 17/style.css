@@ -1,0 +1,15 @@
+*{
+    text-decoration: none;
+    color:black;
+    margin:10px;
+}
+
+table, th, td {
+    
+    background-color: #c2ffc4;
+    border: 2px solid black;
+}
+
+th{
+    background-color: rgb(66, 106, 14);    
+}

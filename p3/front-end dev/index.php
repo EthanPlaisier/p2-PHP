@@ -23,9 +23,9 @@
 
         <section class="buttons">
             <h4>More details</h4>
-            <a href="#" class="button">About me</a>
-            <a href="#" class="button">Contact</a>
-            <a href="#" class="button">Work</a>
+            <a href="aboutme.php" class="button">About me</a>
+            <a href="contact.php" class="button">Contact</a>
+            <a href="work.php" class="button">Work</a>
         </section>
     </main>
     <footer class="bottombar">
