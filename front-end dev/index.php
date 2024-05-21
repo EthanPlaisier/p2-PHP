@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
+    <title>Homepage</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,16 +13,16 @@
     <main>
         <section class="fotoarea">
             <div class="profileimage">
-                <img src="pasfoto_20.jpg" alt="Your Picture" class="image">
+                <img src="pasfoto_20.jpg" alt="Missing picture" class="image">
             </div>
             <div class="aboutmetext">
-                <h5>Kort over mij</h5>
-                <p class="text">Hello there, Ethan here. I work as a Front-end developer. You can find out more below where i talk about myself in more detail.</p>
+                <h2>Kort over mij</h2> <!-- Changed from h5 to h2 for better structure -->
+                <p class="text">Hello there, Ethan here. I work as a Front-end developer. You can find out more below where I talk about myself in more detail.</p>
             </div>       
         </section>
 
         <section class="buttons">
-            <h4>More details</h4>
+            <h3>More details</h3> <!-- Changed from h4 to h3 for better structure -->
             <a href="aboutme.php" class="button">About me</a>
             <a href="contact.php" class="button">Contact</a>
             <a href="work.php" class="button">Work</a>
