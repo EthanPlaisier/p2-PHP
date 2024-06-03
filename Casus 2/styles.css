@@ -1,0 +1,27 @@
+/* Normale stijl */
+body {
+    background-color: white;
+    color: black;
+}
+
+h1, h2 {
+    color: black;
+}
+
+/* Dark mode stijl */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode h1, 
+body.dark-mode h2 {
+    color: white;
+}
+
+/* Button stijl */
+.toggle-button {
+    margin: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

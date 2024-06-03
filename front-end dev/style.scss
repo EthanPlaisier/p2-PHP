@@ -34,6 +34,12 @@ body {
     padding: 20px;
 }
 
+.main-content {
+    background-color: $main-color;
+    padding: 20px;
+    gap: 5px;
+}
+
 .aboutmetext {
     max-width: 600px;
     margin: 0 auto;
