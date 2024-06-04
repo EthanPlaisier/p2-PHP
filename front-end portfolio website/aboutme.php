@@ -15,6 +15,7 @@
             <h2>About Me</h2>
             <p class="text">I want to become a Software Developer so i can look into how game code works, and maybe create one.</p>
             <p class="text">I always had an idea of what i wanted to do since i was little and that was to write code and learn.</p>
+            <p class="text">As of right now i am currently following the course to become a Software Developer.</p>
             
             <h3>Education</h3>
             <ul>

@@ -13,6 +13,7 @@
     <main>
         <section class="main-content">
             <h2>Contact</h2>
+            <p class="text">My phone is the easiest way to reach me with the fastest response.</p>
             <p class="text">You can reach me via the following methods:</p>
             <ul>
                 <li>Email: ethanpla2014@gmail.com</li>
